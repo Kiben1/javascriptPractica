@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/calculadora.css">
+</head>
+<body>
+    
+<div class="container-fluid">
+    <form class="mx-auto">
+        <h2>Calculadora</h2>
+
+        <input type="text" id="display" disabled><br><br>
+        
+        <button class="btn-primary width" type="button" onclick="agregarElemento('8')">8</button>
+        <button class="btn-primary" type="button" onclick="agregarElemento('9')">9</button>
+        <button class="btn-primary" type="button" onclick="agregarElemento('7')"> 7 </button>
+        <button class="btn-primary" type="button" onclick="realizarOperacion('+')">+</button><br><br>
+        
+        <button class="btn-primary" type="button" onclick="agregarElemento('4')">4</button>
+        <button class="btn-primary" type="button" onclick="agregarElemento('5')">5</button>
+        <button class="btn-primary" type="button" onclick="agregarElemento('6')">6</button>
+        <button class="btn-primary" type="button" onclick="realizarOperacion('-')">-</button><br><br>
+        
+        <button class="btn-primary" type="button" onclick="agregarElemento('1')">1</button>
+        <button class="btn-primary" type="button" onclick="agregarElemento('2')">2</button>
+        <button class="btn-primary" type="button" onclick="agregarElemento('3')">3</button>
+        <button class="btn-primary" type="button" onclick="realizarOperacion('*')">*</button><br><br>
+        
+        <button class="btn-primary" type="button" onclick="agregarElemento('0')">0</button>
+        <button class="btn-primary" type="button" onclick="agregarElemento('.')">.</button>
+        <button class="btn-primary" type="button" onclick="calcular()">=</button>
+        <button class="btn-primary" type="button" onclick="realizarOperacion('/')">/</button><br><br>
+        <button class="btn-secundary" type="button" onclick="limpiar()">Limpiar</button>
+        <br><br>
+        <a href="../login.html">Iniciar sesion</a>
+    </form>
+</div>
+
+    <script src="../js/calculadora.js"></script>
+
+
+</body>
+</html>

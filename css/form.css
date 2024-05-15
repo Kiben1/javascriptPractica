@@ -1,0 +1,110 @@
+body {
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+
+
+}
+
+a:link,
+a:visited {
+    margin-top: 10px;
+    background-color: orange;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {}
+
+.formulario {
+
+    display: grid;
+
+    grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
+    border-radius: 10px;
+}
+
+
+.formone {
+    margin-top: 150px;
+    padding-top: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+        url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-self: center;
+    width: 1000px;
+    height: 1100px;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+
+h1 {
+    margin-top: 200px;
+    display: grid;
+    justify-self: center;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.puno {
+    width: 300px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.61);
+    margin-left: 110px;
+    font-size: 18px;
+    padding-left: 50px;
+    border-radius: 50px;
+    font-weight: bolder
+}
+
+.pdos {
+    width: 309px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.61);
+    margin-left: 80px;
+    margin-right: 50px;
+
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.37);
+    border: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+input[type=button] {
+    justify-self: center;
+    margin: 15px 10px;
+    padding: 8px 117px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(54, 68, 255);
+    color: white;
+    cursor: pointer;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.preg {}
+
+.resp {}

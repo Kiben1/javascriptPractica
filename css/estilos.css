@@ -1,0 +1,38 @@
+/* Imagen para el carrusel */
+.imagen-carrusel{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Imagen para la GALERIA */
+img.galeria{
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* TEXTAREA */
+textarea{
+    min-height: 200px;
+    max-height: 200px;
+    height: 200px;
+}
+
+/* REDES SOCIALES */
+svg{
+    width: 30px;
+    height: 30px;
+}
+.aaa{
+    background-color: rgb(5, 138, 143);
+    border: none;
+    color: #f6f6f7;
+    padding: 4px 11px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

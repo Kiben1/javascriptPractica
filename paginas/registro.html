@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <form class="mx-auto">
+            
+            <h4 class="text-center">Formulario de Registro</h4>
+            
+            <div class="mb-2 mt-3">
+              <label for="text" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="n1" >
+            </div>
+            <div class="mb-2 mt-3">
+                <label for="text" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="n2" >
+            </div>
+            <div class="mb-2 mt-3">
+                <label for="date" class="form-label">Año Nacimiento</label>
+                <input type="date" class="form-control" id="n3">
+            </div>
+            
+            <button type="reset" onclick="registro()" class="btn btn-primary mt-3">Registrarse</button>
+            <br>
+            <p id="nombres" class="respuesta"></p>
+            <p id="res" class="respuesta"></p>
+            <a href="../login.html" class="mx-auto">iniciar Sesion</a>
+          </form>
+          
+    </div>
+   
+    <script src="../js/resolver.js"></script>
+    
+</body>
+</html>

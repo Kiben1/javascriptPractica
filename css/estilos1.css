@@ -1,0 +1,124 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font: normal 22px Simonson;
+    color: rgb(13, 120, 110);
+    background-color: rgb(255, 255, 255);
+}
+
+header h1 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+}
+
+.formu{
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 15px 20px;
+    width: 30%;
+    border: 1px solid #0c0c0c;
+    border-radius: 7px;
+}
+.formu h1, h5{
+    text-align: center;
+}
+
+ input[type=email],input[type=password],input[type=text]{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(4, 0, 255);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+  border-radius: 7px;
+}
+input[type=button]{
+    background-color: rgb(116, 228, 10);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+  border-radius: 7px;
+}
+.b{
+    background-color: rgb(116, 228, 10);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+  border-radius: 7px;
+}
+.social{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(243, 238, 238);
+    justify-content: space-evenly;
+    
+}
+.social:hover{
+    background-color: #0f046e;
+    cursor: pointer;
+}
+.social img{
+    width: 1.87rem;
+    height: 1.875rem;
+    position: relative;
+
+}
+img{
+    width: 3.87rem;
+    height: 3.875rem;
+    position: relative;
+
+}
+@media only screen and (max-width: 900px) {
+    body {
+        .formu{
+            width: 50%;
+            font-size: medium;
+            
+            
+        }
+        .social img{
+            width: 1.00rem;
+            height: 1.00rem;
+        
+        }
+        img{
+            width: 3.67rem;
+            height: 3.67rem;
+
+        }
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    body {
+        .formu{
+            width: 80%;
+            font-size: small;
+        }
+
+        .social img{
+            width: 1.00rem;
+            height: 1.00rem;
+        
+        }
+        img{
+            width: 3.00rem;
+            height: 3.00rem;
+
+        }
+    }
+  }
